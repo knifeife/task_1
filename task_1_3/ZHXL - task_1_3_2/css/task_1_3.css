@@ -9,15 +9,17 @@ ul li{list-style: none;}
 	padding: 20px;
 	border: 1px solid #999;
 }
-.container .left,.container .center,.container .right{
+.container .left,.container .center{
 	padding: 20px;	
     border: 1px solid #999;
     background-color: #fff;
 }
-
+.container img{
+	border: 1px solid #999;
+}
 /*position绝对定位*/
 #container-1{
-	    	position: relative;
+	position: relative;
 }
 
 /*左侧*/
@@ -25,22 +27,25 @@ ul li{list-style: none;}
 	position: absolute;
 	top:20px;
 	left: 20px;
-
-	width: 158px;
+	width: 160px;
 }
 /*中间自适应*/
 #container-1 .center{
 	margin-left: 220px;
 	margin-right: 140px;
-	height: 600px;
 }
 /*右侧*/
 #container-1 .right{
 	position: absolute;
 	right: 20px;
 	top: 20px;
-	width: 78px;
-	text-align: center;
+	width: 120px;
+	border: 1px solid #999;
+	background-color: #fff;
+}
+#container-1 .right img{
+	display: block;
+	margin:20px;
 }
 
 
@@ -49,15 +54,18 @@ ul li{list-style: none;}
 /*左侧*/
 #container-2 .left{
 	float: left;
-
-	width: 158px;
+	width: 160px;
 }
 /*右侧*/
 #container-2 .right{
 	float: right;
-
-	width: 78px;
-	text-align: center;
+	width: width: 120px;;
+	border: 1px solid #999;
+	background-color: #fff;
+}
+#container-2 .right img{
+	display: block;
+	margin:20px;
 }
 /*中间*/
 #container-2 .center{
@@ -81,20 +89,22 @@ ul li{list-style: none;}
 /*左侧*/
 #container-3 .left{
 	float: left;
-
-	width: 158px;
+	width: 160px;
 	margin-left:-100%;
 
 }
 /*右侧*/
 #container-3 .right{
 	float: left;
-
-	width: 78px;
+	width: 118px;
 	margin-left:-120px;
-	text-align: center;
+	border: 1px solid #999;
+	background-color: #fff;
 }
-
+#container-3 .right img{
+	display: block;
+	margin:20px;
+}
 
 
 
@@ -123,10 +133,6 @@ ul li{list-style: none;}
 .right>img{
 	width: 80px;
 	height: 80px;
-}
-.right>span{
-      display: block;
-      margin: 10px 0;
 }
 
 /*总结*/
