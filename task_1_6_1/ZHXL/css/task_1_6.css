@@ -4,11 +4,15 @@ ul li{list-style: none;}
 .clearfix:after,.clearfix:before{content:"."; display:block; height:0; visibility:hidden;line-height: 0;overflow: hidden; clear:both; }
 .clearfix { *zoom:1; }
 /*main css样式*/
+body{
+	background-color: #5a5a55;
+}
 #content{
 	width: 892px;
 	height: 1386px;
 	margin: 0 auto;
 	padding:0 44px;
+	background-color: #fff;
 }
 header{
     height: 61px;
@@ -36,12 +40,28 @@ header .date{
 	margin-top: 34px;
 }
 .top .top-left{
+	position: relative;
 	float: left;
 	width: 641px;
 }
 .top-left img{
 	width: 641px;
 	height: 301px;
+}
+.top-left .left{
+	position: absolute;
+	width: 191px;
+	height: 301px;
+	background-color: green;
+	opacity: 0.5;
+}
+.top-left .right{
+	position: absolute;
+	right: 0;
+	width: 191px;
+	height: 301px;
+	background-color: red;
+	opacity: 0.5;
 }
 .top-left article{
 	margin-top: 42px;
