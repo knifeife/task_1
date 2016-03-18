@@ -1,0 +1,38 @@
+.gray{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin:auto;
+	overflow: hidden;
+}
+.gray2{
+	width: 400px;
+	background-color: #ccc;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 35%;
+	bottom: 35%;
+	margin:auto;
+	overflow: hidden;
+}
+.circle{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: #fc0;
+	border-radius: 100px;
+}
+.offset_tl{
+	top:-50px;
+	left: -50px;
+}
+.offset_br{
+	right: -50px;
+	bottom: -50px;
+}
