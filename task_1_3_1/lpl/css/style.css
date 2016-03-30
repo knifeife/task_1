@@ -87,7 +87,9 @@
 	border:1px solid #999;
 	margin:20px;
 	padding:20px;
-	overflow: hidden;
+	/*overflow:auto;*/
+
+
 }
 #mainbody2 .left{
 	float: left;
