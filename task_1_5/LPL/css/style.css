@@ -1,0 +1,191 @@
+*{margin:0;padding:0;}
+#wrap{
+	width:100%;
+	
+}
+#header{
+	width:100%;
+	background: #333;
+	height:80px;
+	
+}
+#header .logo{
+	margin-left:40px;
+	float:left;
+}
+#header .nav li{
+	margin:0 32px;
+	float:right;
+}
+#header a{
+	line-height:80px; 
+	color:#fff;
+}
+#mainbody{
+	background: #ddd;
+	padding: 1px 0;
+	position: relative;
+
+}
+#footer{
+	/*border:1px solid red;*/
+	background: #000;
+	color:white;
+	height:100px;
+	text-align: center;
+	font-size:12px;
+}
+
+#footer td{
+	height:100px;
+}
+#footer table{
+	display: inline;
+}
+.passage{
+	border-top:1px solid #555;
+	border-right:2px solid #333;
+	border-bottom:2px solid #333;
+	border-left:1px solid #555;
+	background: #FFF;
+	padding:15px;
+	margin:30px;
+	
+}
+.passage > img{
+	
+	width:300px;
+}
+.passage p{
+	text-indent: 2em;
+}
+.passage p,h2,h3,h4,h5,h6{
+	margin:15px 0;
+}
+
+.passage li img{
+	width:100px;
+	margin:10px;
+
+}
+.imgList li{
+	margin:10px 40px;
+	border:1px solid #ddd;
+	width:120px;
+	height:120px;
+	text-align: center;
+	
+}
+.imgList li span{
+	font-size: 12px;
+}
+.imgList{
+	list-style: none;
+}
+.passage1List{
+	list-style: none;
+}
+.passage1List li{
+	margin:0.5em 1em;
+
+}
+.passageLast{
+	margin:1em 2em;
+}
+.passageLast li{
+	margin:0.5em 1em;
+}
+
+.sidebar{
+	width:30%;
+
+	border-top:1px solid #555;
+	border-right:2px solid #333;
+	border-bottom:2px solid #333;
+	border-left:1px solid #555;
+	background: #FFF;
+	padding:15px;
+	margin:30px;
+	position:absolute;
+	top:0;
+	right:0;
+
+
+}
+.pTable{
+	width:100%;
+	border:1px solid #ddd;
+	border-collapse: collapse;
+}
+.pTable thead{
+	background: #444;
+	color:#fff;
+	
+	
+}
+.pTable tfoot{
+	background: #ddd;
+}
+.pTable td,.pTable th{
+	border:1px solid #ddd;
+}
+
+
+.sidebar h4{
+	border-left: 5px solid #ccc;
+	padding: 10px;
+}
+
+
+
+.form{
+	line-height:40px;
+
+}
+.formRow{
+	display: table-row;
+	
+}
+
+.formRow div {
+    display: table-cell;
+}
+
+
+.formCol1 {
+	border: 1px solid red;
+    text-align: right;
+
+    
+}
+
+.formCol2 {
+	
+    text-align: left;
+    border: 1px solid red;
+   
+}
+
+
+
+.iptTip {
+    font-size: 15px;
+    color: #aaa;
+}
+
+#submitBtn {
+    color: #fff;
+    font-size: 15px;
+    font-family: "微软雅黑";
+    background-color: #3355D0;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    height:40px;
+    
+}
+
+.content{
+
+	margin-right: 35%;
+}
