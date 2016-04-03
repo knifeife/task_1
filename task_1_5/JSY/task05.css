@@ -1,0 +1,240 @@
+/*全局变量*/
+body
+{
+	background-color: #dedede;
+	margin:0;
+	padding:0;
+	font: serif 14px black;	
+}
+h1,h2
+{
+	font-family: "黑体";
+}
+h2,span
+{
+	color: #989493
+}
+span
+{
+	font-size: 12px;
+}
+/*header部分*/
+header
+{
+	width:100%;
+	height: 60px;
+	background-color: #333333;
+	overflow: auto;
+}
+.logo
+{
+	padding-left: 40px;
+	padding-top: 10px;
+	float: left;
+}
+.nav
+{
+	float:right;
+	padding-right: 20px;
+	
+}
+
+.nav li 
+{
+	margin:0px 10px;
+	float:left;
+	
+}
+.nav li a
+{
+	font-size: 13px;
+}
+.nav li a:link
+{
+	color:white;
+	text-decoration: none;
+}
+.nav li a:visited
+{ 
+	color: white;
+}
+.nav li a:hover
+{
+	color: #a7a1a1;
+}
+/*content部分*/
+#content
+{
+	margin:20px 20px;
+	width:90%;
+	
+
+}
+/*content-left部分*/
+.passage1  
+{
+	padding:20px;
+	float:left;
+	width: 78%;
+	border: solid 1px #cdcdcd;
+	background-color: white;
+	box-shadow: 3px 3px 3px #888;
+}
+
+.passage1 p
+{
+	text-indent:0.8cm;
+}
+
+
+/*content-right部分*/
+.user
+{
+	padding:20px;	
+	float:right;
+	width: 20%;
+	border: solid 1px #cdcdcd;
+	background-color: white;
+	box-shadow: 3px 3px 3px #888;
+	position: absolute;
+	left: 1200px;
+	font-size: 12px;
+	line-height: 30px;
+}
+.user b
+{
+	font-family: "黑体";
+	font-size: 18px;
+}
+.user p
+{
+	color: #989493;
+	padding-left: 90px;
+}
+.password
+{
+	padding-left: 24px;
+}
+.box
+{
+	padding-left:60px;
+}
+.intro
+{
+	padding-left:35px; 
+}
+.intro textarea
+{
+	vertical-align: text-top;
+	width: 60%；
+}
+.buttom
+{
+	padding-top: 10px;
+}
+.clear
+{
+	clear: both;
+}
+/*passage2部分*/
+.passage2 
+{
+	margin-left: 20px;
+	padding:20px;
+	float:left;
+	width: 70.3%;
+	border: solid 1px #cdcdcd;
+	background-color: white;
+	box-shadow: 3px 3px 3px #888;
+}
+
+.passage2 p 
+{
+	text-indent: 0.8cm;
+	line-height: 2;
+}
+.passage2 li
+{
+	display: inline;
+	line-height: 1.5;
+}
+/*image部分*/
+.image 
+{
+	margin:20px 20px;
+	padding:20px;
+	float:left;
+	width: 70.3%;
+	border: solid 1px #cdcdcd;
+	background-color: white;
+	box-shadow: 3px 3px 3px #888;
+}
+.image div
+{
+	border:  solid 1px #cdcdcd;
+	width:12%;
+	padding: 20px;
+	margin: 15px;
+	display: inline-block;
+	float: left;
+}
+.image p
+{
+	font-size: 12px;
+	text-align: center;
+}
+/*表格部分*/
+.passage3
+{
+	margin-left: 20px;
+	padding:20px;
+	float:left;
+	width: 70.3%;
+	border: solid 1px #cdcdcd;
+	background-color: white;
+	box-shadow: 3px 3px 3px #888;
+}
+.table
+{
+	font-family: "黑体";
+	width: 100%;
+	border-collapse: collapse;
+}
+.table td,.table th
+{
+	font-size: 1em;
+	padding: 5px;
+	border: 1px solid #cccccc;
+}
+.table th
+{
+	font-size: 1.1em;
+	color: white;
+	text-align: left;
+	background-color: #333333;
+	padding: 5px;
+}
+/*footer部分*/
+.table tfoot
+{
+	background-color:#cccccc;
+	font-weight: bold;
+	color: black; 
+}
+.footer
+{
+	width: 100%;
+	height: 70px;
+	background-color: #000;
+	float: left;
+	margin-top: 20px;
+}
+.footer p 
+{
+	text-align: center;
+	line-height: 70px;
+	color: white;
+	font-weight: bold;
+}
+
+
