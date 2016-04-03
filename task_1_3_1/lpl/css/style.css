@@ -1,0 +1,113 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+#mainbody{
+	position: relative;
+	padding:20px;
+	background:#eee;
+	border:1px solid #999;
+	margin:20px;
+	
+	min-height: 530px;
+	
+}
+#mainbody .left{
+	position: absolute;
+	left: 20px;
+	top:20px;
+	
+	width:200px;
+	background: white;
+	border:1px solid #999;
+	
+
+}
+
+#mainbody .mid{
+	margin:0 140px 0 220px;
+
+	background: white;
+	
+	border:1px solid #999;
+	padding:20px;
+	line-height: 1.5em;
+}
+#mainbody .right{
+	position:absolute;
+	right:20px;
+	top:20px;
+	width:120px;
+	background: white;
+	border:1px solid #999;
+
+
+}
+.left .logo{
+	margin:20px;
+	float:left;
+	width:80px;
+	height:80px;
+	border:1px solid #999;
+}
+.left .tName{
+	margin:20px;
+
+}
+.tName h2{
+	font-size: 24px;
+	font-weight: bold;
+
+	color: #e11a49;
+}
+.right img{
+	
+	margin:20px;
+	display: block;
+	border:1px solid #999;
+}
+.mid p{
+	text-indent: 2em;
+
+
+}
+.mid h2{
+	line-height: 2em;
+}
+.mid dt{
+	font-weight:bold;
+}
+.mid dd{
+	text-indent: 2em;
+}
+
+#mainbody2{
+	background:#eee;
+	border:1px solid #999;
+	margin:20px;
+	padding:20px;
+	/*overflow:auto;*/
+
+
+}
+#mainbody2 .left{
+	float: left;
+	width:200px;
+	border:1px solid #999;
+	background: white;
+}
+#mainbody2 .right{
+	width:120px;
+	float:right;
+	border:1px solid #999;
+	background: white;
+}
+#mainbody2 .mid{
+	margin-left: 220px;
+	margin-right:140px;
+	border:1px solid #999;
+	background: white;
+	padding:20px;
+	line-height: 1.5em;
+}
